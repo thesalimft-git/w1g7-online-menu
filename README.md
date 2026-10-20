@@ -1,2 +1,13 @@
 # w1g7-online-menu
-W1G7 OnlineMenu (mehrsa, taha, motahare, ...)
+
+stack (
+    react, 
+    bootstrap,
+    iransans,
+    bs-icon,
+    git-github,
+    vercel,
+    farsi,
+    mobile-first,
+    image from [unsplash.com]
+)

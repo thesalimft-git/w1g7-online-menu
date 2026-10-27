@@ -1,15 +1,16 @@
 import React from 'react'
+import MobileMenu from './components/MobileMenu'
 
 export default function Layout({ children }) {
   return (
     <div>
-        <h1>Top bar</h1>
-
+        {/* <h1>Top bar</h1> */}
         <div>
             { children }
         </div>
-
-        <h1>mobile menu</h1>
+        <div className='bg-danger'>
+            <MobileMenu/>
+        </div>
     </div>
   )
 }

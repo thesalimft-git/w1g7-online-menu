@@ -1,0 +1,210 @@
+@media only screen and (max-width: 500px) {
+    .d-sm-none {
+        display: none;
+    }
+    .d-sm-block {
+        display: block;
+    }
+
+    .col-sm-6 {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 501px) {
+    .col-md-3 {
+        grid-template-columns: auto auto auto auto;
+        gap: 10px
+    }
+
+    .d-md-block {
+        display: block;
+    }
+    .d-md-none {
+        display: none;
+    }
+
+    
+}
+
+
+
+@font-face {
+    font-family: iransans;
+    src: url('/assets/fonts/iransans.woff');
+}
+
+body {
+    font-family: iransans;
+    padding: 0px;
+    margin: 0px;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+
+
+.mobile-menu {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 1px;
+}
+
+
+
+
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.mobile-menu div {
+    text-align: center;
+}
+
+
+.mobile-menu i {
+    font-size: 1.4rem;
+}
+
+.mobile-menu p {
+    font-size: 0.6rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.mobile-menu>div>div {
+    cursor:pointer;
+}
+
+.mobile-menu>div>div>a:hover {
+    color: blue;
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.mobile-menu-active {
+    color: rgb(214, 43, 214) !important;
+}
+
+
+.pc-menu {
+    background-color: blueviolet;
+}
+
+.pc-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.pc-menu a:hover {
+    color: rgb(255, 182, 255) !important;
+}
+
+.pc-menu-active {
+    text-decoration: underline !important;
+    color: rgb(238, 151, 238) !important;
+}
+
+
+.top-btn {
+    background-color: violet;
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 70px 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.top-btn a {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.inf-area {
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+
+
+
+.inf-area img {
+    border-radius: 1000px;
+    border: 3px solid violet;
+    padding: 3px;
+    width: 80px;
+}
+
+
+.d-grid {
+    display: grid;
+}
+
+.grid-col-3 {
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+
+.ads-section img {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.ads-section {
+    padding: 20px;
+}
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.footer-area {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+.fast-menu>p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.fast-menu>div>a>p {
+    margin: 0px;
+}
+.fast-menu>div>a {
+    text-decoration: none;
+}

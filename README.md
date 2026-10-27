@@ -11,3 +11,8 @@ stack (
     mobile-first,
     image from [unsplash.com]
 )
+
+
+domain name.ir
+react => host
+develop => build

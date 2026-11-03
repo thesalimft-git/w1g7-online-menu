@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import RestaurantsListPage from './pages/restaurants/RestaurantsListPage'
 import RestaurantMenuPage from './pages/menu/RestaurantMenuPage'
 import Layout from './layout/Layout'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
           <Route path='/favorite' element='my favorite' />
           <Route path='/order' element='order page' />
           <Route path='/setting' element='setting page' />
-          <Route path='/account' element='account page' />
+          <Route path='/account' element={<LoginPage />} />
+          <Route path='/register' element={<RegisterPage />} />
+          
         </Routes>
       </Layout>
     </Router>

@@ -27,3 +27,10 @@ npm run dev
     2- cursor code
     3- opencode
     4- freebuff
+
+
+
+
+useful words for ai coding
+1- make the code better in term of ui ux
+2- role (no custom css, only use bootstrap 5, )

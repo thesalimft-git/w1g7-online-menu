@@ -1,18 +1,29 @@
-# w1g7-online-menu
+1- go to 
+https://github.com/thesalimft-git/w1g7-online-menu
 
-stack (
-    react, 
-    bootstrap,
-    iransans,
-    bs-icon,
-    git-github,
-    vercel,
-    farsi,
-    mobile-first,
-    image from [unsplash.com]
-)
+2- download zip
+https://github.com/thesalimft-git/w1g7-online-menu/archive/refs/heads/main.zip
+
+3- extract zip
+
+4- open folder in vscode, where ls => index.html
+
+5- run command
+```
+npm install
+``` 
+
+6- run command
+```
+npm run dev
+```
+
+7- edit code
+8- zip, image, github, vercel => to telegram
 
 
-domain name.ir
-react => host
-develop => build
+9- Agentic coding tools (use VPN):
+    1- vscode github copilot
+    2- cursor code
+    3- opencode
+    4- freebuff
